@@ -15,8 +15,8 @@ class CreateSettingTable extends Migration
     {
         Schema::create('setting', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('class');
-            $table->string('school', 80);
+            $table->integer('class')->nullable();
+            $table->string('school', 80)->nullable();
             $table->tinyInteger('week')->default(1);
             $table->string('password')->nullable();
         });
