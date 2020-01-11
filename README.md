@@ -40,7 +40,7 @@ Migrated:  2020_01_08_153138_create_user_table (0.14 seconds)
 > >
 > >  > 内容要求，如下图所示。
 
-![image-20200111154537250](./img.png)
+![image-img](./img.png)
 
 打开http://你的网站/overnight/import这个地址选择excel文件即可。
 
@@ -55,7 +55,7 @@ Migrated:  2020_01_08_153138_create_user_table (0.14 seconds)
 > 如下图所示
 >
 
-![image-20200111160234143](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200111160234143.png)
+![image-update](./update.png)
 
 打开http://你的网站/overnight/export这个地址，输入密码后点击提交就可以到出excel文件的数据。
 
