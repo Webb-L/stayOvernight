@@ -239,6 +239,9 @@ class OvernightController extends Controller
                             return back()->with(['danger' => '数据表不存在，请联系管理员！']);
                         }
                     } catch (\Exception $e) {
+                        if ($e->getCode() == 200) {
+                            return back()->with(['success' => $e->getMessage()]);
+                        }
                         return back()->with(['danger' => '导入数据出现异常，请联系管理员！']);
                     }
 
